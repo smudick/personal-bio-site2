@@ -3,9 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test</title>
+  <title>Sam Mudick</title>
 </head>
-<body>
-  <div id="app"></div>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <!-- TODO: Insert some sort of H1-H6 with your name here -->
+      <h1 class="title">Sam Mudick</h1>
+      <ul class="navLinks" id="navLinks">
+        <li><a id="navToBio" class="navLink" href="#">Bio</a></li>
+        <li>
+          <a id="navToTechnologies" class="navLink" href="#">Technologies</a>
+        </li>
+        <li><a id="navToProjects" class="navLink" href="#">Projects</a></li>
+      </ul>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Primary View -->
+    <div class="fullPage aboutMe" id="bioPage">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Sam. I'm originally from Phoenix but have been living
+        in Nashville for the past 10 years. I have worked in various fields from
+        audio engineering, home automation, and information technology since
+        graduating from Belmont University. I am currently a student at
+        Nashville Software School and am learning to become a full stack
+        developer.
+      </p>
+    </div>
+    <div class="skillsProjects">
+      <div class="fullPage skillsList" id="technologiesPage">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <img
+              src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"
+              alt="HTML 5 Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://www.logolynx.com/images/logolynx/ee/ee6197d1b17644329226e0587dce4a9c.png"
+              alt="CSS 3 Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/javascript.svg"
+              alt="Javascript Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              alt="Github Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://secrethub.io/img/vs-code.svg"
+              alt="VS Code Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://www.applegazette.com/wp-content/uploads/2007/05/apple_gray.jpg"
+              alt="Apple Logo"
+            />
+          </li>
+          <li>
+            <img
+              src="https://seeklogo.com/images/T/terminal-logo-D3918B1E3A-seeklogo.com.png"
+              alt="Terminal"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="fullPage projects" id="projectsPage"></div>
+    </div>
+    <!-- End Primary View -->
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <ul>
+        <li>smudick@gmail.com</li>
+        <li><a href="https://www.linkedin.com/in/sammudick/">LinkedIn</a></li>
+        <li><a href="https://github.com/smudick">GitHub</a></li>
+      </ul>
+    </footer>
 </body>
 </html>
