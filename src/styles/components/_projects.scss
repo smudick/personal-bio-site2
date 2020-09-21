@@ -13,16 +13,24 @@
 .project {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
+  justify-content: center;
   margin: 2em;
+  border: 1px solid black;
 }
-.project img {
-  width: 400px;
+.projImage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
 }
-.project a {
+.urls {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em 0 3em 0;
+}
+.url a {
   text-decoration: none;
   color: black;
 }
-.project a:hover {
+.url a:hover {
   border-bottom: black 1px solid;
 }
