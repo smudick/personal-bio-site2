@@ -1,17 +1,3 @@
-
-
-nav {
-  display: flex;
-  flex-direction: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  background: black;
-  text-align: center;
-  position: sticky;
-  width: 100%;
-}
-
 .title {
   padding: 1em;
   font-size: 40px;
@@ -26,13 +12,11 @@ nav {
   text-transform: uppercase;
   font-size: 24px;
 }
-.navlink {
-  text-decoration: none;
-  color: white;
-  padding: 1em;
-  text-align: center;
+
+.linkSpace {
+  padding: 0 2em;
 }
 
-.navlink:hover {
+.navLink:hover {
   border: floralwhite 1px solid;
 }
