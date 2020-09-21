@@ -1,0 +1,28 @@
+.projects {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: left;
+  width: 60%;
+}
+
+.projectsHeader {
+  border-bottom: black 1px solid;
+  margin-bottom: 1em;
+  text-align: left;
+}
+.project {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 2em;
+}
+.project img {
+  width: 400px;
+}
+.project a {
+  text-decoration: none;
+  color: black;
+}
+.project a:hover {
+  border-bottom: black 1px solid;
+}

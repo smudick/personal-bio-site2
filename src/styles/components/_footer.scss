@@ -1,0 +1,23 @@
+.page-footer {
+  width: 100%;
+  bottom: 0px;
+  padding: 1em;
+  background-color: teal;
+  color: white;
+}
+.page-footer ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: none;
+}
+
+.page-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  border-bottom: white 1px solid;
+}
