@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fullPage {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 3em;
+}
