@@ -1,0 +1,44 @@
+{
+    "Chatty" : {
+      "screenshot" : "",
+      "description" : "GROUP PROJECT. This is a chat app built with a theme based on the TV show 'Parks and Rec.' Users can send a message with a character selected, switch between different styling themes, delete messages, and interact with a chatbot encouraging them to treat themselves.",
+      "technologiesUsed" : "Javascript, jQuery, Webpack, Sass, CSS, HTML, and GitHub for version control",
+      "avaiable" : true,
+      "url" : "https://chatty-parks-rec.netlify.app/",
+      "githubUrl" : "https://github.com/smudick/chatty-gamma" 
+    },
+    "Dino Kennel" : {
+      "screenshot": "",
+      "description": "This project allows users to interact with Dinosaurs in a virtual dino kennel. Here you can learn more about each dino, feed and pet dinos, and send them on adventures. Be wary of the dinos health though, if their health drops too low they may end up in the hospital or even the graveyard.",
+      "technologiesUsed":
+        "HTML, CSS, Bootstrap Styling, JavaScript, JQuery, ES6 Modules, Version Control with Github",
+      "available": true,
+      "url": "https://sm-dino-kennel.netlify.app/",
+      "githubUrl": "https://github.com/smudick/Dino-Kennel"
+    },
+    "Pants" : {
+      "screenshot" : "",
+      "description" : "GROUP PROJECT. This project is a multipage website for a clothing store specializing in jeans. It includes home, shop, about, and checkout pages.",
+      "technologiesUsed": "Javascript, HTML, CSS, Version Control with Github",
+      "url" : "https://sm-pants.netlify.app/about.html",
+      "githubUrl" : "https://github.com/smudick/pants-group-project-coolcoders3"
+    },
+    "Tamagotchi" : {
+      "screenshot": "",
+      "description": "This project simulates the classic handheld Tamagotchi game. It allows you to feed, play with, fight with, and rest your virtual pet. Be careful that to watch your pets health, because bad things can happen if its score in any one area drops too low!",
+      "technologiesUsed":
+        "HTML, CSS, Sass, JavaScript, JQuery, Webpack, Version Control with Github",
+      "available": true,
+      "url": "https://sm-tamagotchi.netlify.app/",
+      "githubUrl": "https://github.com/smudick/tamagotchi"
+    },
+    "Bear Watcher" : {
+      "screenshot": "",
+      "description": "This sites purpose is to provide bear watching enthusiasts a place where they can upload images of their favorite bears, while also demonstrating my ability to code with jQuery and separate code into js modules.",
+      "technologiesUsed":
+        "HTML, CSS, JavaScript, JQuery, ES6 Modules, Version Control with Github",
+      "available": true,
+      "url": "https://smbearwatcher.netlify.app/",
+      "githubUrl": "https://github.com/smudick/bear-watcher"
+    }
+  }
