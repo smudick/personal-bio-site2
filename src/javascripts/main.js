@@ -1,9 +1,9 @@
 import '../styles/main.scss';
-import projects from './components/projects';
+import projectsView from './components/views/projectsView';
 import navbar from './components/navbar';
 
 const init = () => {
   navbar.navBuilder();
-  projects.buildProjectCards();
+  projectsView.projectsView();
 };
 init();
