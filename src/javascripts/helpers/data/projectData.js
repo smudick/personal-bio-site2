@@ -9,14 +9,14 @@ const getAllProjects = () => new Promise((resolve, reject) => {
     .then((response) => {
       const projectData = response.data;
       const projects = [];
-      console.warn(projects);
+      console.warn(projectData);
 
       if (projectData) {
         Object.keys(projectData).forEach((projectId) => {
           projects.push(projectData[projectId]);
         });
       }
-      resolve(projectData);
+      resolve(projects);
     })
     .catch((error) => reject(error));
 });
